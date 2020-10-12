@@ -1,3 +1,9 @@
+Ambience is a weather app I made using the OpenWeatherMap API and React JS. 
+
+##Beta
+[Get it here](https://ambience-weather-app.web.app/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
