@@ -1,0 +1,41 @@
+*{
+  font-family: 'montserrat', sans-serif;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(rgb(98, 158, 248), rgb(149, 203, 247));
+  align-items: center;
+  justify-content: center;
+}
+
+#main-content {
+  text-align: center;
+  box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(248, 245, 245, 0.3);
+}
+
+h1 {font-size: 3.5em;}
+
+#img-border {
+  background-color: rgb(42, 42, 83);
+  border-radius: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#searchbar {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  margin-right: 1px;
+}
+
+#searchbutton {
+  padding: 10px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
