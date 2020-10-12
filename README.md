@@ -1,6 +1,6 @@
 Ambience is a weather app I made using the OpenWeatherMap API and React JS. 
 
-##Beta
+## Beta
 [Get it here](https://ambience-weather-app.web.app/)
 
 
