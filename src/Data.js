@@ -13,6 +13,16 @@ class Data extends React.Component {
         }
     }
     
+    componentWillReceiveProps(nextProps) {
+        this.setState({
+            city: nextProps.city,
+            country: nextProps.country,
+            temp: nextProps.temp,
+            desc: nextProps.desc,
+            imgsrc: 'http://openweathermap.org/img/wn/' + nextProps.imgsrc + '@2x.png'
+        });  
+    }
+
     render() {
         return (
             <div id = "Data">
